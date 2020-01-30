@@ -192,7 +192,7 @@ $(function() {
           height = $(this).height();
       if(sTop >= offset && sTop < offset + height) {
         link.removeClass('active');
-        $('#navbar').find('[data-scroll="' + id + '"]').addClass('active');
+        $('#navbar').find('[data-scroll="' + id + '"]').removeClass('active');
       }
     });
   }
